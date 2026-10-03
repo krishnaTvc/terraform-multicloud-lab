@@ -1,0 +1,12 @@
+**/.terraform/*
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/*.tfplan
+**/crash.log
+**/backend.hcl
+**/terraform.tfvars
+**/*.pem
+**/id_rsa*
+**/id_ed25519*
+# Keep .terraform.lock.hcl in Git after terraform init.
+# This ZIP ships placeholder tfvars; keep your edited personal copies local.

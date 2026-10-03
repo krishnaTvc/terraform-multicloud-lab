@@ -1,0 +1,7 @@
+resource_group_name  = "rg-terraform-module-state"
+storage_account_name = "REPLACE_WITH_BOOTSTRAP_STORAGE_NAME"
+container_name       = "tfstate"
+key                  = "azure/lab/terraform.tfstate"
+subscription_id      = "REPLACE_WITH_SUBSCRIPTION_ID"
+use_azuread_auth     = true
+use_cli              = true

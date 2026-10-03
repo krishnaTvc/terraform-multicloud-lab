@@ -1,0 +1,5 @@
+bucket       = "REPLACE_WITH_BOOTSTRAP_BUCKET_NAME"
+key          = "aws/lab/terraform.tfstate"
+region       = "eu-north-1"
+encrypt      = true
+use_lockfile = true
